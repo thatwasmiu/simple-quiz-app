@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>HTML Quiz</title>
+  <link rel="icon" type="image/png" href="images/favicon-32x32.png" sizes="32x32" />
+  <link rel="icon" type="image/png" href="images/favicon-16x16.png" sizes="16x16" />
+  <link href="https://fonts.googleapis.com/css?family=Pangolin:400,700/Proxima+Nova" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+
+  <header>
+
+	  <div id="course-name">WPR</div>
+    <div> 
+		  <div class="stack-circle">M</div>
+		  <div class="stack-circle">E</div>
+		  <div class="stack-circle">R</div>
+		  <div class="stack-circle">N</div>
+    </div> 
+
+  </header>
+
+  <article>
+
+    <section id="quiz-name">
+      <div id="banner">
+        <h1>HTML Quiz</h1>
+      </div>
+       
+	    <div>By Nguyen Tien Dat</div>
+    </section>
+
+    <section id="introduction">
+      <!--  -->
+		<h2>The Test</h2>
+
+		<p>	The test contains 10 questions and there is no time limit.</p>
+		<p>The test is not official, it's just a nice way to see how much you know, or don't know, about HTML.</p>
+		
+		<h2>Count Your Score</h2>
+		
+		<p>You will get 1 point for each correct answer. At the end of the Quiz, your total score will be displayed. Maximum score is 10 points.</p>
+		
+		<div id="box-start"> 
+      <h3>Start the quiz</h3>
+			<p>Good luck!<p>
+      <button id="btn-start">
+      Start the HTML quiz ❯
+      </button>
+		</div>
+    </section>
+
+    <section id="attempt-quiz" class="hidden">
+      <div class="attempt-question-list">
+        
+      </div>
+
+      <div id="box-submit">
+        <button id="btn-submit">
+        Submit your answers ❯
+        </button>
+      </div>
+      
+    </section>
+
+
+    <section id="review-quiz" class="hidden">
+      <div class="review-question-list">
+        
+      </div>
+      
+      <div id="box-result"> 
+        <h5>Result:</h5>
+        <p id="score"><p>
+        <p id="percentage"><strong></strong></p>
+        <p id="scoreText"></p>
+        <button id="btn-try-again">
+          Try again 
+        </button>
+      </div>
+      
+    </section>
+
+  </article>
+</body>
+
+</html>

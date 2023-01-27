@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "mongodb": "^4.11.0"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "name": "blah",
+  "version": "1.0.0",
+  "main": "server.js",
+  "author": "Not Daste",
+  "license": "ISC",
+  "description": "Rest API for store and sending HTML multiple-choice question"
+}
